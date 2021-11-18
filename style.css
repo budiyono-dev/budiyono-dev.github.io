@@ -5,17 +5,19 @@ img.background {
 .layout-kiri {
     position: absolute;
     z-index: 1;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     display: flex;
-    left: 25%;
-    top: 25%;
+    left: 10%;
+    top: 10%;
     /* margin: auto; */
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.568);
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px #b8b8b8;
 }
 
 .nama-pasangan {
