@@ -1,3 +1,44 @@
 img.background {
-    filter: brightness(0.4);
+    filter: brightness(0.7);
+}
+
+.layout-kiri {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    left: 25%;
+    top: 25%;
+    /* margin: auto; */
+    background-color: rgba(255, 255, 255, 0.2);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nama-pasangan {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.text-pasangan {
+    font-family: 'Satisfy';
+    /* font-size: 5.5vh; */
+    font-size: 6.5vw;
+    font-family: 'Satisfy';
+    font-weight: 400;
+    color: #333333;
+}
+
+h1.kata-sambung {
+    margin: -4vw;
+    font-size: 8.5vw;
 }
