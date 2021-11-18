@@ -56,12 +56,12 @@ body {
 }
 
 h1.text-pasangan {
-    font-family: 'Satisfy';
+    font-family: 'Pinyon Script';
+    /* font-family: 'Satisfy'; */
     /* font-size: (10% - 60px); */
     font-size: 90px;
     font-size: 5.5vw;
     background-image: none;
-    font-family: 'Satisfy';
     font-weight: 400;
     color: #333333;
 }

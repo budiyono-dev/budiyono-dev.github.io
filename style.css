@@ -32,15 +32,29 @@ img.background {
 }
 
 h1.text-pasangan {
-    font-family: 'Satisfy';
     /* font-size: 5.5vh; */
     font-size: 6.5vw;
-    font-family: 'Satisfy';
+    font-family: 'MonteCarlo', cursive;
+    /* font-family: 'Satisfy'; */
+    /* font-family: 'Pinyon Script', cursive; */
     font-weight: 400;
     color: #333333;
 }
 
 h1.kata-sambung {
-    margin: -4vw;
+    /* margin: -4vw; */
     font-size: 8.5vw;
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'MonteCarlo', cursive;
+}
+
+.nama-pasangan {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
