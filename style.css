@@ -30,20 +30,17 @@ img.background {
 }
 
 h1.text-pasangan {
-    /* font-size: 5.5vh; */
-    font-size: 6.5vw;
+    font-size: 8vw;
     font-family: 'MonteCarlo', cursive;
-    /* font-family: 'Satisfy'; */
-    /* font-family: 'Pinyon Script', cursive; */
     font-weight: 400;
     color: #333333;
 }
 
 h1.kata-sambung {
-    /* margin: -4vw; */
     font-size: 8.5vw;
-    /* font-family: 'Parisienne', cursive; */
     font-family: 'MonteCarlo', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .nama-pasangan {
@@ -66,7 +63,6 @@ h1.kata-sambung {
     display: flex;
     left: 10%;
     top: 30%;
-    /* margin: auto; */
     background-color: rgba(255, 255, 255, 0.568);
     flex-direction: column;
     flex-wrap: nowrap;
@@ -78,27 +74,23 @@ h1.kata-sambung {
 h1.text-pasangan-cover {
     font-size: 10vw;
     font-family: 'MonteCarlo', cursive;
-    /* font-family: 'Satisfy'; */
-    /* font-family: 'Pinyon Script', cursive; */
     font-weight: 400;
     color: #333333;
 }
 
 .nama-pasangan-cover {
     position: relative;
-    /* margin: auto; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
     justify-content: center;
+    margin: 3% auto;
 }
 
 h1.kata-sambung-cover {
-    /* margin: -4vw; */
     font-size: 12.5vw;
-    /* font-family: 'Parisienne', cursive; */
     font-family: 'MonteCarlo', cursive;
 }
 
@@ -108,7 +100,7 @@ h1.kata-sambung-cover {
 }
 
 .tanggal {
-    font-size: 1vh;
+    font-size: 2.31vw;
 }
 
 .display-none {
@@ -143,12 +135,12 @@ input#btn-buka-undangan {
 
 .head-wedding {
     font-family: 'Great Vibes', cursive;
-    font-size: 3.0vw;
+    font-size: 3.2vw;
     padding: 5%;
 }
 
 .pembuka {
-    font-size: 2.6vw;
+    font-size: 2.7vw;
 }
 
 .pembuka>p {
@@ -160,21 +152,18 @@ input#btn-buka-undangan {
 
 .waktu-tempat {
     margin: 4% auto;
-    font-size: 1.3vh;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
 }
 
 .waktu-tempat>p {
-    font-size: 1.3vh;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
 }
 
 .waktu-tempat>a {
-    font-size: 1.3vh;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
 }
 
 td.label {
@@ -183,7 +172,6 @@ td.label {
 
 table {
     width: 100%;
-    /* padding: 2%; */
     margin: 2% auto;
 }
 
@@ -191,8 +179,7 @@ table {
     align-items: center;
     align-content: center;
     text-align: center;
-    font-size: 1.3vh;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
     padding: 1% 2%;
 }
 
@@ -207,7 +194,6 @@ table {
     align-items: center;
     align-content: center;
     text-align: center;
-    font-size: 1.3vh;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
     padding: 0% 2%;
 }
