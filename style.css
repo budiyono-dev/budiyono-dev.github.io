@@ -124,13 +124,13 @@ h1.kata-sambung-cover {
 }
 
 input#btn-buka-undangan {
-    background-color: #bbbbbb;
+    background-color: #9d5658;
     border: none;
     text-decoration: none;
     cursor: pointer;
     border-radius: 10px;
-    /* height: 40px; */
     width: 31%;
+    color: white;
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
