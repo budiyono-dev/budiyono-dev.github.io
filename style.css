@@ -130,9 +130,10 @@ input#btn-buka-undangan {
     cursor: pointer;
     border-radius: 10px;
     /* height: 40px; */
-    width: 20%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    width: 31%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
     align-items: center;
+    font-size: 1.3vh;
 }
