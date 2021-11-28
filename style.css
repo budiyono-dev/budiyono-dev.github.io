@@ -5,19 +5,17 @@ img.background {
 .layout-kiri {
     position: absolute;
     z-index: 1;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
     display: flex;
-    left: 10%;
-    top: 10%;
-    /* margin: auto; */
+    left: 7.5%;
+    top: 7.5%;
     background-color: rgba(255, 255, 255, 0.568);
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     border-radius: 2%;
-    /* box-shadow: 10px 10px 5px #b8b8b8; */
 }
 
 .nama-pasangan {
@@ -145,16 +143,18 @@ input#btn-buka-undangan {
 
 .head-wedding {
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5vw;
+    font-size: 3.0vw;
     padding: 5%;
+}
+
+.pembuka {
+    font-size: 2.6vw;
 }
 
 .pembuka>p {
     align-items: center;
     align-content: center;
     text-align: center;
-    font-size: 1.3vh;
-    font-size: 2.6vw;
     padding: 2%;
 }
 
@@ -198,7 +198,9 @@ table {
 
 .hormat-kami {
     width: 100%;
-    margin: 5% 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
 }
 
 .hormat-kami>p {
