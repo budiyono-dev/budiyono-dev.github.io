@@ -104,7 +104,7 @@ h1.kata-sambung-cover {
     font-family: 'MonteCarlo', cursive;
 }
 
-.head-wedding {
+.head-wedding-cover {
     font-family: 'Great Vibes', cursive;
     font-size: 3.5vw;
 }
@@ -136,4 +136,22 @@ input#btn-buka-undangan {
     text-align: center;
     align-items: center;
     font-size: 1.3vh;
+}
+
+.head-wedding-cover {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5vw;
+}
+
+.head-wedding {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5vw;
+}
+
+.pembuka {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2vh;
+    padding: 5%;
 }
