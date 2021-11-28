@@ -1,7 +1,17 @@
+let cover = document.querySelector(".cover");
+let halaman1 = document.querySelector(".layout-kiri")
 let orientation = {
     widht: 0,
     height: 0
 }
+document.querySelector("#btn-buka-undangan").addEventListener('click', function() {
+    console.log("buka undangan");
+    //close cover
+    cover.classList.add("display-none");
+    halaman1.classList.remove("display-none");
+    // buka halaman undangan
+});
+
 $(document).ready(function() {
     // iniOrientation()
 

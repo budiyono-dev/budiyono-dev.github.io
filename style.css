@@ -58,3 +58,61 @@ h1.kata-sambung {
     align-items: center;
     justify-content: center;
 }
+
+.cover {
+    position: absolute;
+    background-color: aliceblue;
+    z-index: 2;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    left: 10%;
+    top: 30%;
+    /* margin: auto; */
+    background-color: rgba(255, 255, 255, 0.568);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8%;
+}
+
+h1.text-pasangan-cover {
+    font-size: 10vw;
+    font-family: 'MonteCarlo', cursive;
+    /* font-family: 'Satisfy'; */
+    /* font-family: 'Pinyon Script', cursive; */
+    font-weight: 400;
+    color: #333333;
+}
+
+.nama-pasangan-cover {
+    position: relative;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.kata-sambung-cover {
+    /* margin: -4vw; */
+    font-size: 12.5vw;
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'MonteCarlo', cursive;
+}
+
+.head-wedding {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5vw;
+}
+
+.tanggal {
+    font-size: 1vh;
+}
+
+.display-none {
+    display: none;
+}
