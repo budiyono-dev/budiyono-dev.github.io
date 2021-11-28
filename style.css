@@ -119,13 +119,20 @@ h1.kata-sambung-cover {
 
 .btn-buka-undangan {
     margin-top: 4vh;
+    width: 100%;
+    text-align: center;
 }
 
 input#btn-buka-undangan {
     background-color: #bbbbbb;
     border: none;
-    border-radius: 10%;
-    padding: 10% 30%;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 10px;
+    /* height: 40px; */
+    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    align-items: center;
 }
