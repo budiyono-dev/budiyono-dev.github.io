@@ -80,6 +80,8 @@ input#search-article {
     width: 50vw;
     height: 5vh;
     border-radius: 10px;
+    padding: 1vh 2vw;
+    box-sizing: border-box;
 }
 
 input#btn-search {
