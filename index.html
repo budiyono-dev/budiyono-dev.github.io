@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/index.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -21,23 +21,29 @@
         <div class="menu-item">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="" onclick="gotoPage(event, 'home')">Home</a>
                 </li>
                 <li>
-                    <a href="#">Posts</a>
+                    <a href="" onclick="gotoPage(event, 'posts')">Posts</a>
                 </li>
                 <li>
-                    <a href="">Category</a>
+                    <a href="" onclick="gotoPage(event, 'categories')">Category</a>
                 </li>
                 <li>
-                    <a href="">About Me</a>
+                    <a href="" onclick="gotoPage(event, 'about')">About Me</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <div class="container">
+        <h1 class="wellcome-text">
+            Hello world!
+        </h1>
+        <div class="main-search">
+            <input type="text">
+            <input type="button" value="Cari">
+        </div>
+    </div>
 
 </body>
 

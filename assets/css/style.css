@@ -18,10 +18,12 @@ nav>div>ul>li>a {
     font-weight: bold;
     padding: 1.5vh;
     font-size: 1.3rem;
+    width: 100%;
 }
 
-nav>div>ul>li:hover{
-    cursor: pointer;   
+nav>div>ul>li:hover {
+    cursor: pointer;
+    background-color: gainsboro;
 }
 
 .menu-button {
@@ -53,4 +55,23 @@ nav>div>ul>li:hover{
 
 .hide {
     display: none;
+}
+
+.container {
+    padding: 1vh 1vh;
+}
+
+.wellcome-text {
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.main-search {
+    display: grid;
+    grid-gap: 1vh;
+}
+
+.main-search > input {
+    display: block;
+    margin: auto;
 }
