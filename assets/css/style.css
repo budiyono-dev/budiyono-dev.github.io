@@ -16,7 +16,8 @@ nav>div>ul>li>a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 1vh;
+    padding: 1.5vh;
+    font-size: 1.3rem;
 }
 
 nav>div>ul>li:hover{
