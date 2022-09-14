@@ -19,6 +19,7 @@ nav>div>ul>li>a {
     padding: 1.5vh;
     font-size: 1.3rem;
     width: 100%;
+    box-sizing: border-box;
 }
 
 nav>div>ul>li:hover {
@@ -71,7 +72,7 @@ nav>div>ul>li:hover {
     grid-gap: 1vh;
 }
 
-.main-search > input {
+.main-search>input {
     display: block;
     margin: auto;
 }
@@ -91,4 +92,8 @@ input#btn-search {
     border-radius: 1vh;
     font-size: 1rem;
     box-shadow: 3px 2px #000000;
+}
+
+.menu-item-active {
+    background-color: gainsboro;
 }
