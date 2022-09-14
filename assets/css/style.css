@@ -75,3 +75,18 @@ nav>div>ul>li:hover {
     display: block;
     margin: auto;
 }
+
+input#search-article {
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+input#btn-search {
+    background: whitesmoke;
+    border: none;
+    padding: 1vh 3vw;
+    border-radius: 1vh;
+    font-size: 1rem;
+    box-shadow: 3px 2px #000000;
+}
